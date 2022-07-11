@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\conno\\Desktop\\gradebook\\src\\GradeBook\\GradeBook.csproj": {}
+    "C:\\Users\\conno\\Desktop\\Connor Marler\\CSharp-PluralSight\\gradebook\\src\\GradeBook\\GradeBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\conno\\Desktop\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+    "C:\\Users\\conno\\Desktop\\Connor Marler\\CSharp-PluralSight\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\conno\\Desktop\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "C:\\Users\\conno\\Desktop\\Connor Marler\\CSharp-PluralSight\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "C:\\Users\\conno\\Desktop\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectPath": "C:\\Users\\conno\\Desktop\\Connor Marler\\CSharp-PluralSight\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\conno\\Desktop\\gradebook\\src\\GradeBook\\obj\\",
+        "outputPath": "C:\\Users\\conno\\Desktop\\Connor Marler\\CSharp-PluralSight\\gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\conno\\AppData\\Roaming\\NuGet\\NuGet.Config",

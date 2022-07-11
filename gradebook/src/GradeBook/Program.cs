@@ -7,7 +7,7 @@ namespace Gradebook
     {
         static void Main(string[] args)
         {
-            var book = new Book("Connor's Grade Book");
+            IBook book = new DiskBook("Connor's Grade Book");
             book.GradeAdded += OnGradeAdded;
 
             Statistics stats;
@@ -16,7 +16,6 @@ namespace Gradebook
 
             stats = book.GetStatistics();
 
-            Console.WriteLine(Book.CATEGORY); // not lowercase book because it is a const and not per instance
             Console.WriteLine($"For the book named {book.Name}");
             Console.WriteLine($"The lowest grade is {stats.Low}.");
             Console.WriteLine($"The highest grade is {stats.High}.");
@@ -24,7 +23,7 @@ namespace Gradebook
             Console.WriteLine($"The letter grade is {stats.Letter}.");
         }
 
-        private static void EnterGrades(Book book)
+        private static void EnterGrades(IBook book)
         {
             
             while (true)
